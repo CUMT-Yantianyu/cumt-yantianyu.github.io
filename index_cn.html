@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+
+    <title>颜天煜的主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 2%;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            flex: 1; /* 让两个section平分容器的宽度 */
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 1200px; /* 设置内容的最大宽度 */
+            margin: 0 auto; /* 水平居中 */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 10px 10px;
+            position: relative; /* 设置为相对定位 */
+        }
+
+        /* CSS样式，控制头像位置 */
+        .avatar {
+            width: 170px; /* 设置头像的宽度 */
+            height: 170px; /* 设置头像的高度 */
+            border-radius: 50%; /* 圆形头像 */
+        }
+
+        div {
+            margin-left: 35px; /* 设置左边距为 20 像素 */
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <h1>欢迎来到颜天煜的个人主页</h1>
+</header>
+<nav>
+    <a href="#about">关于我</a>
+    <a href="#honor">个人荣誉</a>
+    <a href="#work">学生工作</a>
+    <a href="#experience">实习经历</a>
+    <a href="#skills">掌握技能</a>
+    <a href="#projects">个人项目</a>
+    <a href="#contact">联系我</a>
+    <a href="index.html" target="_self">English version</a>
+</nav>
+
+<section>
+    <!-- HTML中的头像 -->
+    <img class="avatar" src="image.JPG" alt="个人头像">
+</section>
+
+<section id="about">
+    <h2>关于我</h2>
+    <div>
+        <p>
+            山东济南人，中国矿业大学2021级本科生，就读于信息与控制工程学院电子信息工程专业，中共预备党员。<br></br>我是一个喜爱单片机、编程和设计的人，喜欢探索新技术，构建有趣的项目。
+        </p>
+    </div>
+</section>
+
+<section id="honor">
+    <h2>个人荣誉</h2>
+    <div>
+        <p>2022-2023 五一数学建模竞赛二等奖</p>
+        <p>2023-2024 全国数学建模竞赛江苏赛区二等奖</p>
+
+        <p>2022-2023 校级优秀共青团员</p>
+        <p>2022-2023 校级二等奖学金</p>
+        <p>2022-2023 院级优秀学生干部</p>
+
+        <p>加权成绩专业排名前 30%</p>
+    </div>
+</section>
+
+<section id="workhonor">
+    <h2>学生工作</h2>
+    <div>
+        <p>2022-2024 伊诺维克实验室、信息处理俱乐部部员</p>
+        <p>2021-2022 中国矿业大学大学生科学技术协会赛事统筹部部员</p>
+        <p>2022-2023 中国矿业大学大学生科学技术协会办公室主任</p>
+        <p>2023-2024 中国矿业大学大学生科学技术协会副主席</p>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>实习经历</h2>
+    <div>
+        <p>暂无</p>
+    </div>
+
+</section>
+<section id="projects">
+    <h2>个人项目</h2>
+    <div>
+        <p>省级创新训练项目 基于正交DD线圈副边去耦合干扰的双负载无线电能传输系统 <a href="https://kns.cnki.net/kcms2/article/abstract?v=0Q9DRdE4I9ef1kTEOCB6ag6SQPgETXFiS9dM7wJR6qMH_RkWpJop9p1YdWhZv5JRxyydVrlFGt1zTk18G-lQdTWhIeN0Ryx6P0IHAFojtNtUNpnz6Ue2ZcAIREyWIw4_Lhj9kt2LaEg88X1Sv5hohw==&uniplatform=NZKPT&language=CHS" target="_blank">部分成果</a></p>
+        <p>校级创新训练项目 熏蒸仓多机协同平衡提升控制系统 </p>
+        <p>校级创新训练项目 基于LLM技术的心理咨询模型设计</p>
+        <p>嵌入式系统课程设计 基于FreeRTOS的智能数据采集控制系统</p>
+        <p>数据结构课程设计 基于交互式图论的可视化城市网络</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>掌握技能</h2>
+    <div>
+        <p>了解C、Python、Matlab语言。</p>
+        <p>熟悉常用的Python库，包括NumPy、Tkinter。</p>
+        <p>能够通过Proteus、Simulink、Multisim进行简单的电路、信号仿真。</p>
+        <p>熟悉立创EDA进行PCB设计绘制。</p>
+        <p>能够通过使用电烙铁、万用表、示波器对电路板进行焊接、测试。</p>
+        <p>熟悉STM32f1系列的部分设计开发，了解FreeRtos系统。</p>
+        <p>掌握嵌入式系统、计算机网络、数字信号处理和通信原理等方面的基本知识。</p>
+    </div>
+</section>
+
+
+<section id="contact">
+    <h2>联系我</h2>
+    <div>
+        <p>您可以通过以下方式联系到我：</p>
+        <ul>
+            <li>Email: <a href="mailto:752971750@qq.com">752171750@qq.com</a></li>
+            <li>Email: <a href="mailto:04211392@cumt.edu.cn">04211392@cumt.edu.cn</a></li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 cumt-yantianyu的个人主页</p>
+</footer>
+
+</body>
+</html>
+
