@@ -1,56 +1,174 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<title>ZONGXP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+
+    <title>Yan Tianyu's home page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 2%;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            flex: 1; /* 让两个section平分容器的宽度 */
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 1200px; /* 设置内容的最大宽度 */
+            margin: 0 auto; /* 水平居中 */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 10px 10px;
+            position: relative; /* 设置为相对定位 */
+        }
+
+        /* CSS样式，控制头像位置 */
+        .avatar {
+            width: 170px; /* 设置头像的宽度 */
+            height: 170px; /* 设置头像的高度 */
+            border-radius: 50%; /* 圆形头像 */
+        }
+
+        div {
+            margin-left: 35px; /* 设置左边距为 20 像素 */
+        }
+    </style>
 </head>
+
 <body>
- 
-<h1>你好</h1>
-<p>段落1</p>
+<header>
+    <h1>Welcome to Yan Tianyu's personal homepage</h1>
+</header>
+<nav>
+    <a href="#about">About me</a>
+    <a href="#honor">Honor</a>
+    <a href="#work">Student work</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Project</a>
+    <a href="#contact">Contact me</a>
+    <a href="index_cn.html" target="_self">中文版</a>
+</nav>
 
-<img src="1.png" width="640" height="640" />
+<section>
+    <!-- HTML中的头像 -->
+    <img class="avatar" src="image.JPG" alt="个人头像">
+</section>
 
-<table border="1">
-    <tr>
-        <th>序号</th>
-        <th>要做的</th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>吃饭</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>睡觉</td>
-    </tr>
-</table>
+<section id="about">
+    <h2>About me</h2>
+    <div>
+        <p>
+            Born in Jinan, Shandong Province, a 2021 undergraduate of China University of Mining and Technology, majoring in Electronic Information Engineering at the School of Information and Control Engineering, and a probationary member of the Communist Party of China. <br>
+            </br> I am a person who loves microcontrollers, programming and design, and enjoys exploring new technologies and building interesting projects.
+        </p>
+    </div>
+</section>
 
-<a href="https://bilibili.com/">bilibili</a>
+<section id="honor">
+    <h2>Honor</h2>
+    <div>
+        <p>2022-2023 Second prize in the May 1 Mathematical Contest in Modeling</p>
+        <p>2023-2024 National mathematical Contest in Modeling Jiangsu Division second prize</p>
+
+        <p>2022-2023 School level excellent Communist Youth League member</p>
+        <p>2022-2023 University-level second-class scholarship</p>
+        <p>2022-2023 College level outstanding student leader</p>
+
+        <p>The weighted score is in the top 30% of the major</p>
+    </div>
+</section>
+
+<section id="workhonor">
+    <h2>Student work</h2>
+    <div>
+        <p>2022-2024 Member of the NVIC Lab, Information Processing Club</p>
+        <p>2021-2022 China University of Mining and Technology University student Science and Technology Association event coordination Department member</p>
+        <p>2022-2023 China University of Mining and Technology students Science and Technology Association office director</p>
+        <p>2023-2024 Vice Chairman of Science and Technology Association of College Students, China University of Mining and Technology</p>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <div>
+        <p>Not yet. There will be</p>
+    </div>
+
+</section>
+<section id="projects">
+    <h2>Project</h2>
+    <div>
+        <p>Provincial innovation training program-Dual-load radio energy transmission system based on quadrature DD coil subside de-coupling interference <a href="https://kns.cnki.net/kcms2/article/abstract?v=0Q9DRdE4I9ef1kTEOCB6ag6SQPgETXFiS9dM7wJR6qMH_RkWpJop9p1YdWhZv5JRxyydVrlFGt1zTk18G-lQdTWhIeN0Ryx6P0IHAFojtNtUNpnz6Ue2ZcAIREyWIw4_Lhj9kt2LaEg88X1Sv5hohw==&uniplatform=NZKPT&language=CHS" target="_blank">Partial result</a></p>
+        <p>School level innovation training program-Fumigation bin multi-machine coordinated balanced lifting control system </p>
+        <p>School level innovation training program-Design of psychological counseling model based on LLM technology</p>
+        <p>Embedded system course design-Intelligent data acquisition control system based on FreeRTOS</p>
+        <p>Data structure course design-Visual city network based on interactive graph theory</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div>
+        <p>Knowledge of C, Python, Matlab.</p>
+        <p>Familiar with common Python libraries, including NumPy, Tkinter.</p>
+        <p>Simple circuit and signal simulation can be carried out through Proteus, Simulink and Multisim.</p>
+        <p>Familiar with the PCB design and drawing of Lichuang EDA.</p>
+        <p>The circuit board can be welded and tested by using electric soldering iron, multimeter and oscilloscope.</p>
+        <p>Familiar with the design and development of STM32f1 series and understand the FreeRtos system.</p>
+        <p>Master the basic knowledge of embedded systems, computer networks, digital signal processing and communication principles.</p>
+    </div>
+</section>
 
 
-<!-- <form action="demo_form.php" method="post/get">
-    <input type="text" name="email" size="40" maxlength="50">
-    <input type="password">
-    <input type="checkbox" checked="checked">
-    <input type="radio" checked="checked">
-    <input type="submit" value="Send">
-    <input type="reset">
-    <input type="hidden">
-    <select>
-    <option>苹果</option>
-    <option selected="selected">香蕉</option>
-    <option>樱桃</option>
-    </select>
-    <textarea name="comment" rows="60" cols="20"></textarea>
-     
-    </form> -->
+<section id="contact">
+    <h2>Contact me</h2>
+    <div>
+        <p>You can contact me in the following ways:</p>
+        <ul>
+            <li>Email: <a href="mailto:752971750@qq.com">752171750@qq.com</a></li>
+            <li>Email: <a href="mailto:04211392@cumt.edu.cn">04211392@cumt.edu.cn</a></li>
+        </ul>
+    </div>
+</section>
 
-<a href="04211392@cumt.edu.cn">发送e-mail</a>
- 
+<footer>
+    <p>&copy; 2024 cumt-yantianyu's personal page</p>
+</footer>
+
 </body>
 </html>
-
-
-
-
